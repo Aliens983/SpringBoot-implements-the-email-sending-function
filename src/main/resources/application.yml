@@ -1,16 +1,35 @@
-spring:
-  mail:
-    host: smtp.163.com
-    port: 465
-    username: EXAMPLE@163.com          # 替换为你的 163 邮箱地址
-    password: CODE        # 替换为 163 邮箱的 SMTP 授权码（非登录密码）
-    protocol: smtp
-    properties:
-      mail:
-        smtp:
-          auth: true
-          ssl:
-            enable: true
-            required: true
-          starttls:
-            enable: false
+#If you are using 163 mail, please uncomment the following lines
+#spring:
+#  mail:
+#    host: smtp.163.com
+#    port: 465
+#    username: EXAMPLE@163.com          # 替换为你的 163 邮箱地址
+#    password: CODE                     # 替换为 163 邮箱的 SMTP 授权码（非登录密码）
+#    protocol: smtp
+#    properties:
+#      mail:
+#        smtp:
+#          auth: true
+#          ssl:
+#            enable: true
+#            required: true
+#          starttls:
+#            enable: false
+
+#If you are using qq mail, please uncomment the following lines
+#spring:
+#  mail:
+#    host: smtp.qq.com
+#    port: 465
+#    username: EXAMPLE@qq.com          # 替换为你的 qq 邮箱地址
+#    password: CODE                    # 替换为 qq 邮箱的 SMTP 授权码（非登录密码）
+#    protocol: smtp
+#    properties:
+#      mail:
+#        smtp:
+#          auth: true
+#          ssl:
+#            enable: true
+#            required: true
+#          starttls:
+#            enable: false
